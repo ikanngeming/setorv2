@@ -2,16 +2,5 @@
   "buildCommand": "npm run build",
   "devCommand": "npm run dev",
   "installCommand": "npm install",
-  "framework": "nextjs",
-  "env": {
-    "DATABASE_URL": {
-      "description": "MySQL connection string (PlanetScale, Neon, or Railway)"
-    },
-    "NEXTAUTH_URL": {
-      "description": "Your application URL"
-    },
-    "NEXTAUTH_SECRET": {
-      "description": "Secret key for NextAuth (generate with: openssl rand -base64 32)"
-    }
-  }
+  "framework": "nextjs"
 }
